@@ -1,0 +1,29 @@
+Screen: The window object represents a window/tab containing a DOM document where as document object is
+property of window object that points to the DOM document loaded in that window. We can access a 
+document object either using window.
+The screen object, implementing the Screen interface, is a special object for inspecting properties of 
+the screen on which the current window is being rendered.
+*The screen object refers to the actual monitor window or desktop size. 
+Note that if you have a multi-mon setup then you will have multiple screen objects. 
+A window object belongs to a single screen , though not very window belongs to the same screen
+
+Window:A global variable, window , representing the window in which the script is running, is 
+exposed to JavaScript code. The Window interface is home to a variety of functions, namespaces, 
+objects, and constructors which are not necessarily directly associated with the concept of a user 
+interface window
+*Top of the hierarchy. It is the outmost element of the object hierarchy. Document object − 
+Each HTML document that gets loaded into a window becomes a document object. 
+
+Document: The document object represents our web page. If we want to access any element 
+in an HTML page, you always start with accessing the document object. Below are some examples 
+of how you can use the document object to access and manipulate HTML
+Example: 
+document.getElementById(id)--->Find an element by element id
+document.getElementsByTagName(name)---->Find elements by tag name
+document.getElementsByClassName(name)--->Find elements by class name
+Types of documents
+HTML files.
+Microsoft PowerPoint presentations.
+Microsoft Word documents.
+Plain text documents.
+PDFs.
